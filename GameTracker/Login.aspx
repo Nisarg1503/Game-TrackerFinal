@@ -24,7 +24,8 @@ Description:  This page will allow user to login into site --%>
                     or <a href="register.aspx">Register</a>
                 </fieldset>
                 <fieldset class="form-group text-right">
-                    <input type="submit" class="btn btn-success" value="Log In"/>
+                    <asp:Button Text="Login" ID="LoginButton" runat="server" CssClass="btn btn-primary" OnClick="LoginButton_Click" TabIndex="0" />
+                    
                </fieldset>
             </form>
          </div> 
