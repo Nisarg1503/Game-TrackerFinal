@@ -31,6 +31,7 @@ Description:  This page contains My Navbar with CSS. --%>
                 <li id="project" runat="server"><a class="blog-nav-item" href="Games.aspx"><i class="fa fa-gamepad fa-lg"></i> Games</a></li>
                 <li id="contact" runat="server"><a class="blog-nav-item" href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
                 <li id="services" runat="server"><a class="blog-nav-item" href="Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
+                <li id="Li1" runat="server"><a class="blog-nav-item" href="Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
