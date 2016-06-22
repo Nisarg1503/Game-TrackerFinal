@@ -33,7 +33,7 @@ namespace GameTracker
         protected void GetGames()
         {
             // connect to EF
-            using (DefaultConnection db = new DefaultConnection())
+            using (GameTrackerConnection db = new GameTrackerConnection())
             {
                 // query the Students Table using EF and LINQ
                 var Games = (from allGames in db.Games
