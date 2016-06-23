@@ -52,7 +52,7 @@ namespace GameTracker
                 authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
 
                 // Redirect to the Main Menu page
-                Response.Redirect("~/Default.aspx");
+                Response.Redirect("~/GamersArea/Games.aspx");
             }
             else
             {

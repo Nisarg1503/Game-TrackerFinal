@@ -129,7 +129,7 @@
     <Content Include="Assets\Images\Logo_final.png" />
     <Content Include="Assets\Images\register.png" />
     <Content Include="Assets\Images\Logo_Back.png" />
-    <Content Include="Contact.aspx" />
+    <Content Include="GamersArea\Contact.aspx" />
     <Content Include="Content\App.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -143,7 +143,7 @@
     <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Games.aspx" />
+    <Content Include="GamersArea\Games.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Models\GameTracker.Context.tt">
@@ -209,11 +209,11 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
+    <Compile Include="GamersArea\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
+    <Compile Include="GamersArea\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
@@ -223,11 +223,11 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Games.aspx.cs">
+    <Compile Include="GamersArea\Games.aspx.cs">
       <DependentUpon>Games.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Games.aspx.designer.cs">
+    <Compile Include="GamersArea\Games.aspx.designer.cs">
       <DependentUpon>Games.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">

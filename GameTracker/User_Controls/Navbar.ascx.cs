@@ -37,13 +37,16 @@ namespace GameTracker
                     about.Attributes.Add("class", "active");
                     break;
                 case "Games":
-                    home.Attributes.Add("class", "active");
+                    Games.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;
                 case "Login":
-                    home.Attributes.Add("class", "active");
+                    Login.Attributes.Add("class", "active");
+                    break;
+                case "Register":
+                    Login.Attributes.Add("class", "active");
                     break;
 
             }

@@ -30,6 +30,7 @@ Description:  This page will allow user to login into site --%>
                             <div class="form-group">
                                 <label class="control-label" for="PasswordTextBox">Password:</label>
                                 <asp:TextBox runat="server" TextMode="Password" CssClass="form-control" ID="PasswordTextBox" placeholder="Password" required="true" TabIndex="0"></asp:TextBox>
+                                or <a href="/register.aspx">Register</a>
                             </div>
                             <div class="text-right">
                                 
