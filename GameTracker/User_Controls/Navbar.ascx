@@ -26,7 +26,7 @@ Description:  This page contains My Navbar with CSS. --%>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             
             <ul class="nav navbar-nav navbar-right">
-                <li id="home" runat="server"><a class="blog-nav-item" href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li id="home" runat="server"><a class="blog-nav-item" href="/Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li id="about" runat="server"><a class="blog-nav-item" href="/About.aspx"><i class="fa fa-info-circle fa-lg"></i> About</a></li>
 
                 <asp:PlaceHolder ID="PublicPlaceHolder" runat="server">
