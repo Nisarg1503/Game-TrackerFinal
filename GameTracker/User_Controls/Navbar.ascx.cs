@@ -5,6 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+// required for Identity and OWIN Security
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
+
 /**
  * @author: Nisarg Patel
  * @date: June 01, 2016
@@ -17,7 +22,26 @@ namespace GameTracker
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SetActivePage();
+            if (!IsPostBack)
+            {
+                // check if a user is logged in
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+
+                    // show the Contoso Content area
+                    GamersAreaPlaceHolder.Visible = true;
+                    PublicPlaceHolder.Visible = false;
+                    
+                }
+                else
+                {
+                    // only show login and register
+                    GamersAreaPlaceHolder.Visible = false;
+                    PublicPlaceHolder.Visible = true;
+                    //UserPlaceHolder.Visible = false;
+                }
+                SetActivePage();
+            }
         }
         /**
          * This method adds a css class of "active" to list items related

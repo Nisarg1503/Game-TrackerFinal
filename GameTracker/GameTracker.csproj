@@ -144,6 +144,7 @@
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="GamersArea\Games.aspx" />
+    <Content Include="GamersArea\Logout.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Models\GameTracker.Context.tt">
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="GamersArea\Games.aspx.designer.cs">
       <DependentUpon>Games.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GamersArea\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GamersArea\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
