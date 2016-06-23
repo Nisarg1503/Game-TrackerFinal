@@ -7,9 +7,10 @@ Website: http://gametracker-part2.azurewebsites.net/
 Description:  This page will allow user to login into site --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="Content/Login.css" rel="stylesheet" />
+    <link href="Content/Loginpage.css" rel="stylesheet" />
    
-        <div class="container">    
+        <main class="Login">
+            <section>
             <div class="row">
                 <div class="col-md-offset-4 col-md-4"> 
 
@@ -24,7 +25,7 @@ Description:  This page will allow user to login into site --%>
                         <div class="panel-body">
                             
                             <div class="form-group">
-                                <label class="control-label" for="UserNameTextBox">Username:</label>
+                                <label id="label" class="control-label" for="UserNameTextBox">Username:</label>
                                 <asp:TextBox runat="server" CssClass="form-control" ID="UserNameTextBox" placeholder="Username" required="true" TabIndex="0"></asp:TextBox>
                             </div>
                             <div class="form-group">
@@ -34,12 +35,13 @@ Description:  This page will allow user to login into site --%>
                             </div>
                             <div class="text-right">
                                 
-                                <asp:Button Text="Login" ID="LoginButton" runat="server" CssClass="btn btn-primary" OnClick="LoginButton_Click" TabIndex="0" />
+                                <asp:Button Text="Login" ID="LoginButton" runat="server" CssClass="btn btn-success" OnClick="LoginButton_Click" TabIndex="0" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    
+                </section>
+        </main>
+  
 </asp:Content>

@@ -27,15 +27,15 @@ Description:  This page contains My Navbar with CSS. --%>
             
             <ul class="nav navbar-nav navbar-right">
                 <li id="home" runat="server"><a class="blog-nav-item" href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li id="about" runat="server"><a class="blog-nav-item" href="About.aspx"><i class="fa fa-info-circle fa-lg"></i> About</a></li>
+                    <li id="about" runat="server"><a class="blog-nav-item" href="/About.aspx"><i class="fa fa-info-circle fa-lg"></i> About</a></li>
 
                 <asp:PlaceHolder ID="PublicPlaceHolder" runat="server">
-                    <li id="Login" runat="server"><a class="blog-nav-item" href="Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
+                    <li id="Login" runat="server"><a class="blog-nav-item" href="/Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
                 </asp:PlaceHolder>
                 <asp:PlaceHolder ID="GamersAreaPlaceHolder" runat="server">
                     <li id="Games" runat="server"><a class="blog-nav-item" href="/GamersArea/Games.aspx"><i class="fa fa-gamepad fa-lg"></i> Games</a></li>
                     <li id="contact" runat="server"><a class="blog-nav-item" href="/GamersArea/Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
-                    <li id="Logout" runat="server"><a class="blog-nav-item" href="Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                    <li id="Logout" runat="server"><a class="blog-nav-item" href="/GamersArea/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                 </asp:PlaceHolder>
 
             </ul>

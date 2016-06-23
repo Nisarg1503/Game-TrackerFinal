@@ -3,10 +3,12 @@ body{
  background-size: 1370px 800px;
  background-image: url("../Assets/Images/register.png");    
 }
-main {
-        padding-top: 75px;
+  main {
+        padding-top: 50px;
         font-family: 'Abel', sans-serif;
         letter-spacing:2px;
         font-size:1.4em;
-        color:#E5EFFF;
+        color:#ff9c00;
         }
+
+   

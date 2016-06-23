@@ -7,7 +7,7 @@ Website: http://gametracker-part2.azurewebsites.net/
 Description:  This page will allow users to Register by providing some personal information --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="Content/Register.css" rel="stylesheet" />
+    <link href="Content/RegisterPage.css" rel="stylesheet" />
     <main class="container">
 	
 		<div class="row">
@@ -18,7 +18,7 @@ Description:  This page will allow users to Register by providing some personal 
 
                 </div>
 
-                <h1>User Registration</h1>
+                
                 
 			<div class="panel panel-primary">
 
