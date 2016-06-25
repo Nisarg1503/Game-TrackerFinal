@@ -7,7 +7,7 @@ Website: http://gametracker-part2.azurewebsites.net/
 Description:  This page creates a contact form with some field check and small window with our personal information. --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="Content/PageStyle.css" rel="stylesheet" />
+    <link href="../Content/PageStyle.css" rel="stylesheet" />
     <div class="container">
         <div class="row">
             <div class="row text-center">

@@ -8,7 +8,7 @@ Website: http://gametracker-part2.azurewebsites.net/
 Description:  This page has game list and information about game stats with gridview --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="Content/PageStyle.css" rel="stylesheet" />
+    <link href="../Content/PageStyle.css" rel="stylesheet" />
     <!-- Section  -->
     <div class="aboutme">
         <section id="about" class="about">
