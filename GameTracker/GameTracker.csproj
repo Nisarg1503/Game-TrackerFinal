@@ -129,6 +129,7 @@
     <Content Include="Assets\Images\Logo_final.png" />
     <Content Include="Assets\Images\register.png" />
     <Content Include="Assets\Images\Logo_Back.png" />
+    <Content Include="Content\HomePage.css" />
     <Content Include="Content\Loginpage.css" />
     <Content Include="Content\RegisterPage.css" />
     <Content Include="GamersArea\Contact.aspx" />

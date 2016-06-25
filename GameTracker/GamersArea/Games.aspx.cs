@@ -35,7 +35,7 @@ namespace GameTracker
             // connect to EF
             using (GameTrackerConnection db = new GameTrackerConnection())
             {
-                // query the Students Table using EF and LINQ
+                // query the Game Table using EF and LINQ
                 var Games = (from allGames in db.Games
                              select allGames);
 
