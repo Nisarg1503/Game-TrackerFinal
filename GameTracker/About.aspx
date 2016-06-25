@@ -3,7 +3,7 @@
 <%--
 File   : About.aspx
 Author : Nisarg Patel & Jinal Patel
-Website: http://gametracker-part2.azurewebsites.net/
+Website: http://njgame-tracker.azurewebsites.net/
 Description:  This page contains the information About Us. --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

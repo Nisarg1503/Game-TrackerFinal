@@ -4,8 +4,8 @@
 <%--
 File   : Games.aspx
 Author : Nisarg Patel & Jinal Patel
-Website: http://gametracker-part2.azurewebsites.net/
-Description:  This page has game list and information about game stats with gridview --%>
+Website: http://njgame-tracker.azurewebsites.net/
+Description:  This page has game list and information about game stats with gridview with AUTH on this page --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <link href="../Content/PageStyle.css" rel="stylesheet" />
@@ -26,7 +26,7 @@ Description:  This page has game list and information about game stats with grid
             <asp:GridView runat="server" CssClass="table table-bordered table-striped table-hover"
                 ID="GamesGridView" AutoGenerateColumns="false">
                 <Columns>
-                    
+
                     <asp:BoundField DataField="GameID" HeaderText="Game ID" Visible="false" />
                     <asp:BoundField DataField="GameName" HeaderText="Game Name" Visible="true" />
                     <asp:BoundField DataField="TeamName" HeaderText="Team Name" Visible="true" />
@@ -36,11 +36,11 @@ Description:  This page has game list and information about game stats with grid
                         DataFormatString="{0:MMM dd, yyyy}" />
                 </Columns>
 
-               
+
             </asp:GridView>
         </div>
- </div>
-    
+    </div>
+
 
 
 </asp:Content>

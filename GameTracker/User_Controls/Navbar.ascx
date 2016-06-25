@@ -2,12 +2,13 @@
 <%--
 File   : Navbar.ascx
 Author : Nisarg Patel & Jinal Patel
-Website: http://gametrack.azurewebsites.net
+Website: http://njgame-tracker.azurewebsites.net/
 Description:  This page contains My Navbar with CSS. --%>
 <link href="../Content/App.css" rel="stylesheet" />
 <nav class="blog-nav" role="navigation">
 <div class="blog-masthead">
     <div class="container">
+        <%-- Logo Image --%>
         <div class="logo pull-left">
                     <img id="img1" src="../Assets/Images/Logo_final.png" />
                 </div>
@@ -26,12 +27,14 @@ Description:  This page contains My Navbar with CSS. --%>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             
             <ul class="nav navbar-nav navbar-right">
+                <%-- Public Links --%>
                 <li id="home" runat="server"><a class="blog-nav-item" href="/Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li id="about" runat="server"><a class="blog-nav-item" href="/About.aspx"><i class="fa fa-info-circle fa-lg"></i> About</a></li>
-
+                <%-- Public Links --%>
                 <asp:PlaceHolder ID="PublicPlaceHolder" runat="server">
                     <li id="Login" runat="server"><a class="blog-nav-item" href="/Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
                 </asp:PlaceHolder>
+                <%-- Users Links --%>
                 <asp:PlaceHolder ID="GamersAreaPlaceHolder" runat="server">
                     <li id="Games" runat="server"><a class="blog-nav-item" href="/GamersArea/Games.aspx"><i class="fa fa-gamepad fa-lg"></i> Games</a></li>
                     <li id="contact" runat="server"><a class="blog-nav-item" href="/GamersArea/Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>

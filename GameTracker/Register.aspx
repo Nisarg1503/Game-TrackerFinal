@@ -3,14 +3,14 @@
 <%--
 File   : Register.aspx
 Author : Nisarg Patel & Jinal Patel
-Website: http://gametracker-part2.azurewebsites.net/
+Website: http://njgame-tracker.azurewebsites.net/
 Description:  This page will allow users to Register by providing some personal information --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Content/RegisterPage.css" rel="stylesheet" />
     <main class="container">
-	
-		<div class="row">
+
+        <div class="row">
             <div class="col-sm-4">
                 <div class="alert alert-danger" id="AlertFlash" runat="server" visible="false">
 
@@ -18,13 +18,13 @@ Description:  This page will allow users to Register by providing some personal 
 
                 </div>
 
-                
-                
-			<div class="panel panel-primary">
+
+
+                <div class="panel panel-primary">
 
                     <div class="panel-heading">
 
-                        <h1 class="panel-title"><i class="fa fa-user-plus fa-lg"></i> Register</h1>
+                        <h1 class="panel-title"><i class="fa fa-user-plus fa-lg"></i>Register</h1>
 
                     </div>
 
@@ -60,8 +60,7 @@ Description:  This page will allow users to Register by providing some personal 
 
                             <asp:TextBox runat="server" TextMode="Password" CssClass="form-control" ID="ConfirmPasswordTextBox" placeholder="Confirm Password" required="true" TabIndex="0"></asp:TextBox>
 
-                            <asp:CompareValidator ErrorMessage="Your Passwords Must Match" Type="String" Operator="Equal"  ControlToValidate="ConfirmPasswordTextBox" runat="server"
-
+                            <asp:CompareValidator ErrorMessage="Your Passwords Must Match" Type="String" Operator="Equal" ControlToValidate="ConfirmPasswordTextBox" runat="server"
                                 ControlToCompare="PasswordTextBox" CssClass="label label-danger" />
 
                         </div>
@@ -76,10 +75,10 @@ Description:  This page will allow users to Register by providing some personal 
 
                     </div>
 
-                </div>  
+                </div>
 
             </div>
 
         </div>
-        </main>
+    </main>
 </asp:Content>

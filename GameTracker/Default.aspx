@@ -3,8 +3,8 @@
 <%--
 File   : Default.aspx
 Author : Nisarg Patel & Jinal Patel
-Website: http://gametracker-part2.azurewebsites.net/
-Description:  This page is my Home page/Default page. --%>
+Website: http://njgame-tracker.azurewebsites.net/
+Description:  This page is my Home page/Default page with Table result data on page. --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
